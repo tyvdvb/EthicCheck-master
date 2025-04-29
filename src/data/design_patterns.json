@@ -1,0 +1,1031 @@
+{
+    "United States": {
+      "ecommerce": [
+        "https://www.amazon.com",
+        "https://www.ebay.com",
+        "https://www.etsy.com",
+        "https://www.walmart.com",
+        "https://www.target.com"
+      ],
+      "government": [
+        "https://www.usa.gov",
+        "https://www.whitehouse.gov",
+        "https://www.cdc.gov",
+        "https://www.fema.gov",
+        "https://www.ssa.gov"
+      ],
+      "news": [
+        "https://www.cnn.com",
+        "https://www.nytimes.com",
+        "https://www.washingtonpost.com",
+        "https://www.foxnews.com",
+        "https://www.npr.org"
+      ]
+    },
+    "United Kingdom": {
+      "ecommerce": [
+        "https://www.amazon.co.uk",
+        "https://www.argos.co.uk",
+        "https://www.tesco.com",
+        "https://www.asos.com",
+        "https://www.currys.co.uk"
+      ],
+      "government": [
+        "https://www.gov.uk",
+        "https://www.parliament.uk",
+        "https://www.hmrc.gov.uk",
+        "https://www.nhs.uk",
+        "https://www.bankofengland.co.uk"
+      ],
+      "news": [
+        "https://www.bbc.co.uk",
+        "https://www.theguardian.com",
+        "https://www.telegraph.co.uk",
+        "https://www.independent.co.uk",
+        "https://www.thetimes.co.uk"
+      ]
+    },
+    "Canada": {
+      "ecommerce": [
+        "https://www.amazon.ca",
+        "https://www.bestbuy.ca",
+        "https://www.canadiantire.ca",
+        "https://www.walmart.ca",
+        "https://www.hudsonsbay.com"
+      ],
+      "government": [
+        "https://www.canada.ca",
+        "https://www.cic.gc.ca",
+        "https://www.cra-arc.gc.ca",
+        "https://www.statcan.gc.ca",
+        "https://www.tc.gc.ca"
+      ],
+      "news": [
+        "https://www.cbc.ca",
+        "https://www.ctvnews.ca",
+        "https://www.globalnews.ca",
+        "https://www.nationalpost.com",
+        "https://www.thestar.com"
+      ]
+    },
+    "Germany": {
+      "ecommerce": [
+        "https://www.amazon.de",
+        "https://www.otto.de",
+        "https://www.zalando.de",
+        "https://www.mediamarkt.de",
+        "https://www.saturn.de"
+      ],
+      "government": [
+        "https://www.bundesregierung.de",
+        "https://www.bmi.bund.de",
+        "https://www.bundesfinanzministerium.de",
+        "https://www.bundesbank.de",
+        "https://www.bundesagentur-fuer-arbeit.de"
+      ],
+      "news": [
+        "https://www.spiegel.de",
+        "https://www.sueddeutsche.de",
+        "https://www.faz.net",
+        "https://www.welt.de",
+        "https://www.tagesschau.de"
+      ]
+    },
+    "France": {
+      "ecommerce": [
+        "https://www.amazon.fr",
+        "https://www.cdiscount.com",
+        "https://www.fnac.com",
+        "https://www.darty.com",
+        "https://www.laredoute.fr"
+      ],
+      "government": [
+        "https://www.gouvernement.fr",
+        "https://www.service-public.fr",
+        "https://www.legifrance.gouv.fr",
+        "https://www.impots.gouv.fr",
+        "https://www.banque-france.fr"
+      ],
+      "news": [
+        "https://www.lemonde.fr",
+        "https://www.lefigaro.fr",
+        "https://www.liberation.fr",
+        "https://www.france24.com",
+        "https://www.20minutes.fr"
+      ]
+    },
+    "Italy": {
+      "ecommerce": [
+        "https://www.amazon.it",
+        "https://www.eshopitalia.it",
+        "https://www.subito.it",
+        "https://www.ebay.it",
+        "https://www.zalando.it"
+      ],
+      "government": [
+        "https://www.governo.it",
+        "https://www.interno.gov.it",
+        "https://www.esteri.it",
+        "https://www.agenziaentrate.gov.it",
+        "https://www.inps.it"
+      ],
+      "news": [
+        "https://www.repubblica.it",
+        "https://www.corriere.it",
+        "https://www.ilsole24ore.com",
+        "https://www.lastampa.it",
+        "https://www.ansa.it"
+      ]
+    },
+    "Spain": {
+      "ecommerce": [
+        "https://www.amazon.es",
+        "https://www.elcorteingles.es",
+        "https://www.pccomponentes.com",
+        "https://www.zalando.es",
+        "https://www.fnac.es"
+      ],
+      "government": [
+        "https://www.lamoncloa.gob.es",
+        "https://www.interior.gob.es",
+        "https://www.exteriores.gob.es",
+        "https://www.agenciatributaria.es",
+        "https://www.seg-social.es"
+      ],
+      "news": [
+        "https://www.elpais.com",
+        "https://www.elmundo.es",
+        "https://www.abc.es",
+        "https://www.lavanguardia.com",
+        "https://www.eldiario.es"
+      ]
+    },
+    "Japan": {
+      "ecommerce": [
+        "https://www.amazon.co.jp",
+        "https://www.rakuten.co.jp",
+        "https://www.yodobashi.com",
+        "https://www.uniqlo.com/jp",
+        "https://www.muji.com/jp"
+      ],
+      "government": [
+        "https://www.japan.go.jp",
+        "https://www.kantei.go.jp",
+        "https://www.mofa.go.jp",
+        "https://www.mhlw.go.jp",
+        "https://www.mext.go.jp"
+      ],
+      "news": [
+        "https://www.nikkei.com",
+        "https://www.asahi.com",
+        "https://www.yomiuri.co.jp",
+        "https://www.mainichi.jp",
+        "https://www.japantimes.co.jp"
+      ]
+    },
+    "China": {
+      "ecommerce": [
+        "https://www.taobao.com",
+        "https://www.jd.com",
+        "https://www.tmall.com",
+        "https://www.pinduoduo.com",
+        "https://www.suning.com"
+      ],
+      "government": [
+        "http://www.gov.cn",
+        "http://www.mofcom.gov.cn",
+        "http://www.customs.gov.cn",
+        "http://www.safe.gov.cn",
+        "http://www.mps.gov.cn"
+      ],
+      "news": [
+        "https://www.xinhuanet.com",
+        "https://www.people.com.cn",
+        "https://www.chinadaily.com.cn",
+        "https://www.globaltimes.cn",
+        "https://www.cctv.com"
+      ]
+    },
+    "South Korea": {
+      "ecommerce": [
+        "https://www.coupang.com",
+        "https://www.gmarket.co.kr",
+        "https://www.11st.co.kr",
+        "https://www.auction.co.kr",
+        "https://www.ssg.com"
+      ],
+      "government": [
+        "https://www.korea.go.kr",
+        "https://www.mofa.go.kr",
+        "https://www.mohw.go.kr",
+        "https://www.msit.go.kr",
+        "https://www.moe.go.kr"
+      ],
+      "news": [
+        "https://www.koreatimes.co.kr",
+        "https://www.koreaherald.com",
+        "https://www.chosun.com",
+        "https://www.donga.com",
+        "https://www.hani.co.kr"
+      ]
+    },
+    "Brazil": {
+      "ecommerce": [
+        "https://www.mercadolivre.com.br",
+        "https://www.americanas.com.br",
+        "https://www.magazineluiza.com.br",
+        "https://www.submarino.com.br",
+        "https://www.casasbahia.com.br"
+      ],
+      "government": [
+        "https://www.gov.br",
+        "https://www.receita.fazenda.gov.br",
+        "https://www.bcb.gov.br",
+        "https://www.planalto.gov.br",
+        "https://www.ibge.gov.br"
+      ],
+      "news": [
+        "https://www.globo.com",
+        "https://www.uol.com.br",
+        "https://www.estadao.com.br",
+        "https://www.folha.uol.com.br",
+        "https://www.terra.com.br"
+      ]
+    },
+    "Argentina": {
+      "ecommerce": [
+        "https://www.mercadolibre.com.ar",
+        "https://www.fravega.com",
+        "https://www.garbarino.com",
+        "https://www.compumundo.com.ar",
+        "https://www.musimundo.com"
+      ],
+      "government": [
+        "https://www.argentina.gob.ar",
+        "https://www.afip.gob.ar",
+        "https://www.bcra.gov.ar",
+        "https://www.indec.gob.ar",
+        "https://www.anses.gob.ar"
+      ],
+      "news": [
+        "https://www.clarin.com",
+        "https://www.lanacion.com.ar",
+        "https://www.pagina12.com.ar",
+        "https://www.infobae.com",
+        "https://www.ambito.com"
+      ]
+    },
+        "Mexico": {
+          "ecommerce": [
+            "https://www.mercadolibre.com.mx",
+            "https://www.amazon.com.mx",
+            "https://www.walmart.com.mx",
+            "https://www.coppel.com",
+            "https://www.liverpool.com.mx",
+            "https://www.elektra.com.mx",
+            "https://www.linio.com.mx",
+            "https://www.sams.com.mx",
+            "https://www.sears.com.mx",
+            "https://www.claroshop.com"
+          ],
+          "government": [
+            "https://www.gob.mx",
+            "https://www.sre.gob.mx",
+            "https://www.sat.gob.mx",
+            "https://www.dof.gob.mx",
+            "https://www.segob.gob.mx"
+          ],
+          "news": [
+            "https://www.eluniversal.com.mx",
+            "https://www.milenio.com",
+            "https://www.reforma.com",
+            "https://www.excelsior.com.mx",
+            "https://www.lajornada.com.mx",
+            "https://www.infobae.com/mexico",
+            "https://www.unotv.com",
+            "https://www.mexiconewsdaily.com",
+            "https://www.mexicotoday.com"
+          ]
+        },
+        "Colombia": {
+          "ecommerce": [
+            "https://www.mercadolibre.com.co",
+            "https://www.exito.com",
+            "https://www.falabella.com.co",
+            "https://www.olx.com.co",
+            "https://www.linio.com.co"
+          ],
+          "government": [
+            "https://www.gov.co",
+            "https://www.presidencia.gov.co",
+            "https://www.dian.gov.co",
+            "https://www.mininterior.gov.co",
+            "https://www.minhacienda.gov.co"
+          ],
+          "news": [
+            "https://www.eltiempo.com",
+            "https://www.elespectador.com",
+            "https://www.semana.com",
+            "https://www.rcnradio.com",
+            "https://www.caracol.com.co"
+          ]
+        },
+        "Chile": {
+          "ecommerce": [
+            "https://www.mercadolibre.cl",
+            "https://www.falabella.com",
+            "https://www.ripley.cl",
+            "https://www.paris.cl",
+            "https://www.linio.cl"
+          ],
+          "government": [
+            "https://www.gob.cl",
+            "https://www.presidencia.cl",
+            "https://www.sii.cl",
+            "https://www.mininterior.gob.cl",
+            "https://www.bcentral.cl"
+          ],
+          "news": [
+            "https://www.emol.com",
+            "https://www.latercera.com",
+            "https://www.lacuarta.com",
+            "https://www.elmostrador.cl",
+            "https://www.cooperativa.cl"
+          ]
+        },
+        "India": {
+          "ecommerce": [
+            "https://www.amazon.in",
+            "https://www.flipkart.com",
+            "https://www.snapdeal.com",
+            "https://www.myntra.com",
+            "https://www.ajio.com"
+          ],
+          "government": [
+            "https://www.india.gov.in",
+            "https://www.mygov.in",
+            "https://www.incometaxindia.gov.in",
+            "https://www.rbi.org.in",
+            "https://www.pmindia.gov.in"
+          ],
+          "news": [
+            "https://www.timesofindia.indiatimes.com",
+            "https://www.hindustantimes.com",
+            "https://www.ndtv.com",
+            "https://www.thehindu.com",
+            "https://www.indianexpress.com"
+          ]
+        },
+        "Indonesia": {
+          "ecommerce": [
+            "https://www.tokopedia.com",
+            "https://www.shopee.co.id",
+            "https://www.bukalapak.com",
+            "https://www.lazada.co.id",
+            "https://www.blibli.com"
+          ],
+          "government": [
+            "https://www.indonesia.go.id",
+            "https://www.kemendag.go.id",
+            "https://www.kemenkeu.go.id",
+            "https://www.bpk.go.id",
+            "https://www.bi.go.id"
+          ],
+          "news": [
+            "https://www.detik.com",
+            "https://www.kompas.com",
+            "https://www.tempo.co",
+            "https://www.liputan6.com",
+            "https://www.cnnindonesia.com"
+          ]
+        },
+        "Philippines": {
+          "ecommerce": [
+            "https://www.lazada.com.ph",
+            "https://www.shopee.ph",
+            "https://www.zalora.com.ph",
+            "https://www.carousell.ph",
+            "https://www.metrodeal.com"
+          ],
+          "government": [
+            "https://www.gov.ph",
+            "https://www.dof.gov.ph",
+            "https://www.dti.gov.ph",
+            "https://www.bir.gov.ph",
+            "https://www.bsp.gov.ph"
+          ],
+          "news": [
+            "https://www.inquirer.net",
+            "https://www.philstar.com",
+            "https://www.gmanetwork.com/news",
+            "https://www.abs-cbn.com",
+            "https://www.manilatimes.net"
+          ]
+        },
+        "Malaysia": {
+          "ecommerce": [
+            "https://www.lazada.com.my",
+            "https://www.shopee.com.my",
+            "https://www.11street.my",
+            "https://www.zalora.com.my",
+            "https://www.lelong.my"
+          ],
+          "government": [
+            "https://www.malaysia.gov.my",
+            "https://www.treasury.gov.my",
+            "https://www.customs.gov.my",
+            "https://www.bnm.gov.my",
+            "https://www.miti.gov.my"
+          ],
+          "news": [
+            "https://www.thestar.com.my",
+            "https://www.nst.com.my",
+            "https://www.malaysiakini.com",
+            "https://www.freemalaysiatoday.com",
+            "https://www.bernama.com"
+          ]
+        },
+        "Egypt": {
+          "ecommerce": [
+            "https://www.jumia.com.eg",
+            "https://www.souq.com/eg-en",
+            "https://www.carrefour.com.eg",
+            "https://www.noon.com/egypt-en",
+            "https://www.olx.com.eg"
+          ],
+          "government": [
+            "https://www.egypt.gov.eg",
+            "https://www.mof.gov.eg",
+            "https://www.cbe.org.eg",
+            "https://www.mcit.gov.eg",
+            "https://www.mfa.gov.eg"
+          ],
+          "news": [
+            "https://www.egypttoday.com",
+            "https://www.ahram.org.eg",
+            "https://www.dailynewsegypt.com",
+            "https://www.almasryalyoum.com",
+            "https://www.shorouknews.com"
+          ]
+        },
+        "South Africa": {
+          "ecommerce": [
+            "https://www.takealot.com",
+            "https://www.bidorbuy.co.za",
+            "https://www.superbalist.com",
+            "https://www.woolworths.co.za",
+            "https://www.zando.co.za"
+          ],
+          "government": [
+            "https://www.gov.za",
+            "https://www.treasury.gov.za",
+            "https://www.sars.gov.za",
+            "https://www.resbank.co.za",
+            "https://www.dha.gov.za"
+          ],
+          "news": [
+            "https://www.news24.com",
+            "https://www.timeslive.co.za",
+            "https://www.iol.co.za",
+            "https://www.sowetanlive.co.za",
+            "https://www.enca.com"
+          ]
+        },
+        "Kenya": {
+          "ecommerce": [
+            "https://www.jumia.co.ke",
+            "https://www.kilimall.co.ke",
+            "https://www.masoko.com",
+            "https://www.pigiame.co.ke",
+            "https://www.shopit.co.ke"
+          ],
+          "government": [
+            "https://www.mygov.go.ke",
+            "https://www.treasury.go.ke",
+            "https://www.kra.go.ke",
+            "https://www.centralbank.go.ke",
+            "https://www.immigration.go.ke"
+          ],
+          "news": [
+            "https://www.nation.co.ke",
+            "https://www.standardmedia.co.ke",
+            "https://www.the-star.co.ke",
+            "https://www.citizen.digital",
+            "https://www.kbc.co.ke"
+          ]
+        },
+        "Nigeria": {
+          "ecommerce": [
+            "https://www.jumia.com.ng",
+            "https://www.konga.com",
+            "https://www.payporte.com",
+            "https://www.jiji.ng",
+            "https://www.slot.ng"
+          ],
+          "government": [
+            "https://www.nigeria.gov.ng",
+            "https://www.firs.gov.ng",
+            "https://www.cbn.gov.ng",
+            "https://www.nass.gov.ng",
+            "https://www.npf.gov.ng"
+          ],
+          "news": [
+            "https://www.vanguardngr.com",
+            "https://www.punchng.com",
+            "https://www.thenationonlineng.net",
+            "https://www.thisdaylive.com",
+            "https://www.premiumtimesng.com"
+          ]
+        },
+        "Turkey": {
+          "ecommerce": [
+            "https://www.trendyol.com",
+            "https://www.hepsiburada.com",
+            "https://www.n11.com",
+            "https://www.gittigidiyor.com",
+            "https://www.amazon.com.tr"
+          ],
+          "government": [
+            "https://www.turkiye.gov.tr",
+            "https://www.tcmb.gov.tr",
+            "https://www.gib.gov.tr",
+            "https://www.mfa.gov.tr",
+            "https://www.msb.gov.tr"
+          ],
+          "news": [
+            "https://www.hurriyet.com.tr",
+            "https://www.sabah.com.tr",
+            "https://www.milliyet.com.tr"
+          ]
+        },
+            "Iran": {
+              "ecommerce": [
+                "https://www.digikala.com",
+                "https://www.bamilo.com",
+                "https://www.esam.ir",
+                "https://www.modiseh.com",
+                "https://www.shixon.com",
+                "https://www.iranketab.ir",
+                "https://www.cinematicket.org"
+              ],
+              "government": [
+                "https://irangov.ir/en",
+                "https://en.mfa.ir",
+                "https://www.sabteahval.ir",
+                "https://www.amar.org.ir"
+              ],
+              "news": [
+                "https://www.tehrantimes.com",
+                "https://en.mehrnews.com",
+                "https://www.irna.ir",
+                "https://www.isna.ir"
+              ]
+            },
+            "Saudi Arabia": {
+              "ecommerce": [
+                "https://www.amazon.sa",
+                "https://www.jarir.com",
+                "https://www.extra.com",
+                "https://www.namshi.com",
+                "https://www.souq.com/sa-en"
+              ],
+              "government": [
+                "https://www.my.gov.sa/en",
+                "https://www.saudiembassy.net",
+                "https://www.mofa.gov.sa",
+                "https://www.saudi.gov.sa"
+              ],
+              "news": [
+                "https://www.arabnews.com",
+                "https://www.saudigazette.com.sa",
+                "https://english.alarabiya.net",
+                "https://www.okaz.com.sa"
+              ]
+            },
+            "Vietnam": {
+              "ecommerce": [
+                "https://shopee.vn",
+                "https://www.lazada.vn",
+                "https://tiki.vn",
+                "https://www.sendo.vn",
+                "https://www.chotot.com"
+              ],
+              "government": [
+                "https://vietnam.gov.vn",
+                "https://en.baochinhphu.vn",
+                "https://evisa.gov.vn",
+                "https://www.mofa.gov.vn"
+              ],
+              "news": [
+                "https://vietnamnews.vn",
+                "https://e.vnexpress.net",
+                "https://en.vietnamplus.vn",
+                "https://www.nhandan.vn"
+              ]
+            },
+            "Thailand": {
+              "ecommerce": [
+                "https://shopee.co.th",
+                "https://www.lazada.co.th",
+                "https://www.jd.co.th",
+                "https://www.kaidee.com",
+                "https://www.zalora.co.th"
+              ],
+              "government": [
+                "https://www.thailand.go.th/home",
+                "https://www.mfa.go.th",
+                "https://www.thaigov.go.th",
+                "https://www.tourismthailand.org"
+              ],
+              "news": [
+                "https://www.bangkokpost.com",
+                "https://www.nationthailand.com",
+                "https://www.thaipbsworld.com",
+                "https://www.khaosodenglish.com"
+              ]
+            },
+            "Australia": {
+              "ecommerce": [
+                "https://www.amazon.com.au",
+                "https://www.ebay.com.au",
+                "https://www.catch.com.au",
+                "https://www.kogan.com/au",
+                "https://www.theiconic.com.au"
+              ],
+              "government": [
+                "https://www.australia.gov.au",
+                "https://www.homeaffairs.gov.au",
+                "https://www.directory.gov.au",
+                "https://www.dfat.gov.au"
+              ],
+              "news": [
+                "https://www.abc.net.au/news",
+                "https://www.smh.com.au",
+                "https://www.theage.com.au",
+                "https://www.skynews.com.au"
+              ]
+            },
+            "Netherlands": {
+              "ecommerce": [
+                "https://www.bol.com",
+                "https://www.coolblue.nl",
+                "https://www.wehkamp.nl",
+                "https://www.marktplaats.nl",
+                "https://www.ah.nl"
+              ],
+              "government": [
+                "https://www.government.nl",
+                "https://www.rijksoverheid.nl",
+                "https://www.belastingdienst.nl",
+                "https://www.kvk.nl"
+              ],
+              "news": [
+                "https://www.dutchnews.nl",
+                "https://www.nltimes.nl",
+                "https://www.telegraaf.nl",
+                "https://www.nrc.nl"
+              ]
+            },
+            "Switzerland": {
+              "ecommerce": [
+                "https://www.galaxus.ch",
+                "https://www.digitec.ch",
+                "https://www.brack.ch",
+                "https://www.microspot.ch",
+                "https://www.manor.ch"
+              ],
+              "government": [
+                "https://www.admin.ch",
+                "https://www.ch.ch",
+                "https://www.eda.admin.ch",
+                "https://www.sem.admin.ch"
+              ],
+              "news": [
+                "https://www.swissinfo.ch",
+                "https://www.tagesanzeiger.ch",
+                "https://www.nzz.ch",
+                "https://www.20min.ch"
+              ]
+            },
+            "Sweden": {
+              "ecommerce": [
+                "https://www.ikea.com/se",
+                "https://www.elgiganten.se",
+                "https://www.netonnet.se",
+                "https://www.zalando.se",
+                "https://www.apotea.se"
+              ],
+              "government": [
+                "https://www.government.se",
+                "https://www.skatteverket.se",
+                "https://www.migrationsverket.se",
+                "https://www.forsvarsmakten.se"
+              ],
+              "news": [
+                "https://www.thelocal.se",
+                "https://www.dn.se",
+                "https://www.svd.se",
+                "https://www.aftonbladet.se"
+              ]
+            },
+            "Poland": {
+              "ecommerce": [
+                "https://www.allegro.pl",
+                "https://www.olx.pl",
+                "https://www.empik.com",
+                "https://www.ceneo.pl",
+                "https://www.zalando.pl"
+              ],
+              "government": [
+                "https://www.gov.pl",
+                "https://www.msz.gov.pl",
+                "https://www.mf.gov.pl",
+                "https://www.sejm.gov.pl"
+              ],
+              "news": [
+                "https://www.tvn24.pl",
+                "https://www.onet.pl",
+                "https://www.gazeta.pl",
+                "https://www.rp.pl"
+              ]
+            },
+            "Pakistan": {
+              "ecommerce": [
+                "https://www.daraz.pk",
+                "https://www.shophive.com",
+                "https://www.ishopping.pk",
+                "https://www.symbios.pk",
+                "https://www.homeshopping.pk"
+              ],
+              "government": [
+                "https://www.pakistan.gov.pk",
+                "https://www.fbr.gov.pk",
+                "https://www.mofa.gov.pk",
+                "https://www.nadra.gov.pk"
+              ],
+              "news": [
+                "https://www.dawn.com",
+                "https://www.geo.tv",
+                "https://www.thenews.com.pk",
+                "https://www.express.pk"
+              ]
+            },
+"Ukraine": {
+  "ecommerce": [
+    "https://rozetka.com.ua",
+    "https://allo.ua",
+    "https://epicentrk.ua",
+    "https://comfy.ua",
+    "https://foxtrot.com.ua"
+  ],
+  "government": [
+    "https://www.kmu.gov.ua",
+    "https://diia.gov.ua",
+    "https://mfa.gov.ua",
+    "https://www.president.gov.ua"
+  ],
+  "news": [
+    "https://www.pravda.com.ua",
+    "https://tsn.ua",
+    "https://www.unian.ua",
+    "https://www.ukrinform.ua"
+  ]
+},
+    "North America": {
+      "ecommerce": [
+        "https://www.amazon.com",
+        "https://www.ebay.com",
+        "https://www.bestbuy.com",
+        "https://www.walmart.com",
+        "https://www.target.com"
+      ],
+      "government": [
+        "https://www.usa.gov",
+        "https://www.canada.ca",
+        "https://www.gov.uk",
+        "https://www.mexico.gob.mx"
+      ],
+      "news": [
+        "https://www.cnn.com",
+        "https://www.bbc.com",
+        "https://www.npr.org",
+        "https://www.theguardian.com/us",
+        "https://www.cbc.ca"
+      ]
+    },
+    "South America": {
+      "ecommerce": [
+        "https://www.mercadolibre.com",
+        "https://www.submarino.com.br",
+        "https://www.amazon.com.br",
+        "https://www.casasbahia.com.br",
+        "https://www.dafiti.com.br"
+      ],
+      "government": [
+        "https://www.brazil.gov.br",
+        "https://www.gob.ar",
+        "https://www.chile.gob.cl",
+        "https://www.colombia.gov.co"
+      ],
+      "news": [
+        "https://www.bbc.com/portuguese",
+        "https://www.clarin.com",
+        "https://www.eltiempo.com",
+        "https://www.noticiasrcn.com"
+      ]
+    },
+    "Europe": {
+      "ecommerce": [
+        "https://www.amazon.co.uk",
+        "https://www.zalando.de",
+        "https://www.fnac.com",
+        "https://www.laredoute.fr",
+        "https://www.digitec.ch"
+      ],
+      "government": [
+        "https://www.europa.eu",
+        "https://www.gov.uk",
+        "https://www.bundesregierung.de",
+        "https://www.gouvernement.fr"
+      ],
+      "news": [
+        "https://www.bbc.com",
+        "https://www.euronews.com",
+        "https://www.lemonde.fr",
+        "https://www.spiegel.de"
+      ]
+    },
+    "Asia": {
+      "ecommerce": [
+        "https://www.alibaba.com",
+        "https://www.tmall.com",
+        "https://www.flipkart.com",
+        "https://www.shopee.sg",
+        "https://www.jd.com"
+      ],
+      "government": [
+        "https://www.mofa.go.jp",
+        "https://www.india.gov.in",
+        "https://www.sg.gov.sg",
+        "https://www.china.org.cn"
+      ],
+      "news": [
+        "https://www.southchinamorningpost.com",
+        "https://www.asahi.com",
+        "https://www.independent.co.uk/asia",
+        "https://www.thehindu.com"
+      ]
+    },
+    "Middle East": {
+      "ecommerce": [
+        "https://www.noon.com",
+        "https://www.souq.com",
+        "https://www.jarir.com",
+        "https://www.carrefouruae.com",
+        "https://www.dubizzle.com"
+      ],
+      "government": [
+        "https://www.mofa.gov.sa",
+        "https://www.iraq.gov.iq",
+        "https://www.uae.gov.ae",
+        "https://www.knesset.gov.il"
+      ],
+      "news": [
+        "https://www.aljazeera.com",
+        "https://www.alarabiya.net",
+        "https://www.dailystar.com.lb",
+        "https://www.thenationalnews.com"
+      ]
+    },
+    "Africa": {
+      "ecommerce": [
+        "https://www.jumia.com.ng",
+        "https://www.konga.com",
+        "https://www.makro.co.za",
+        "https://www.takealot.com",
+        "https://www.shoprite.co.za"
+      ],
+      "government": [
+        "https://www.southafrica.info",
+        "https://www.ghana.gov.gh",
+        "https://www.nigeria.gov.ng",
+        "https://www.egov.go.ke"
+      ],
+      "news": [
+        "https://www.bbc.com/africa",
+        "https://www.ethiopianreporter.com",
+        "https://www.nigerianmonitor.com",
+        "https://www.mg.co.za"
+      ]
+    },
+    "Oceania": {
+      "ecommerce": [
+        "https://www.catch.com.au",
+        "https://www.theiconic.com.au",
+        "https://www.kogan.com/au",
+        "https://www.mydeal.com.au",
+        "https://www.ebay.com.au"
+      ],
+      "government": [
+        "https://www.australia.gov.au",
+        "https://www.govt.nz",
+        "https://www.pmc.gov.au",
+        "https://www.samoagovt.ws"
+      ],
+      "news": [
+        "https://www.abc.net.au/news",
+        "https://www.nzherald.co.nz",
+        "https://www.theguardian.com/au",
+        "https://www.smh.com.au"
+      ]
+    },
+        "Latin America": {
+          "ecommerce": [
+            "https://www.mercadolibre.com",
+            "https://www.amazon.com.br",
+            "https://www.submarino.com.br",
+            "https://www.dafiti.com.br",
+            "https://www.casasbahia.com.br"
+          ],
+          "government": [
+            "https://www.gob.pe",
+            "https://www.brazil.gov.br",
+            "https://www.gob.ar",
+            "https://www.chile.gob.cl",
+            "https://www.peru.gob.pe"
+          ],
+          "news": [
+            "https://www.clarin.com",
+            "https://www.eltiempo.com",
+            "https://www.bbc.com/portuguese",
+            "https://www.noticiasrcn.com",
+            "https://www.laverdad.com"
+          ]
+        },
+        "Caribbean": {
+          "ecommerce": [
+            "https://www.jumia.com.ng",
+            "https://www.caribbeanjobs.com",
+            "https://www.walmart.ca",
+            "https://www.shopbop.com"
+          ],
+          "government": [
+            "https://www.gov.bm",
+            "https://www.gov.tc",
+            "https://www.gov.ai",
+            "https://www.government.tc"
+          ],
+          "news": [
+            "https://www.jamaicaobserver.com",
+            "https://www.caribbeannewsnow.com",
+            "https://www.trinidadexpress.com",
+            "https://www.thebahamasweekly.com"
+          ]
+        },
+        "Central Asia": {
+          "ecommerce": [
+            "https://www.shop.uz",
+            "https://www.sulpak.kz",
+            "https://www.techno-plus.az",
+            "https://www.olx.kz",
+            "https://www.saty.com.kz"
+          ],
+          "government": [
+            "https://www.gov.kg",
+            "https://www.gov.uz",
+            "https://www.mfa.gov.tj",
+            "https://www.mfa.gov.kz"
+          ],
+          "news": [
+            "https://www.thediplomat.com",
+            "https://www.uzdaily.uz",
+            "https://www.azattyk.org",
+            "https://www.eurasianet.org"
+          ]
+        },
+        "Balkans": {
+          "ecommerce": [
+            "https://www.savidu.com",
+            "https://www.bringme.com",
+            "https://www.makromarket.ba",
+            "https://www.tekstilpromet.rs",
+            "https://www.biggestshop.rs"
+          ],
+          "government": [
+            "https://www.srbija.gov.rs",
+            "https://www.hr",
+            "https://www.mps.gov.mk",
+            "https://www.gov.al"
+          ],
+          "news": [
+            "https://www.balkaninsight.com",
+            "https://www.jutarnji.hr",
+            "https://www.dnevnik.hr",
+            "https://www.nezavisne.com"
+          ]
+        }
+      
+  
+}
+   
+  

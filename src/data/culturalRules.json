@@ -1,0 +1,375 @@
+{
+  "USA": {
+    "flag_colors": ["blue", "white", "red"],
+    "popular_web_colors": ["blue", "gray", "white", "black"],
+    "font": "Roboto, Open Sans",
+    "tone": "casual",
+    "layout": "responsive, user-centered",
+    "design_style": "material design"
+  },
+  "UK": {
+    "flag_colors": ["navy", "white", "red"],
+    "popular_web_colors": ["blue", "white", "dark gray", "black"],
+    "font": "Lato, Arial",
+    "tone": "professional",
+    "layout": "structured",
+    "design_style": "modern minimalism"
+  },
+  "Canada": {
+    "flag_colors": ["red", "white"],
+    "popular_web_colors": ["red", "white", "light gray", "blue"],
+    "font": "Helvetica, Roboto",
+    "tone": "friendly",
+    "layout": "clear, accessible",
+    "design_style": "clean and simple"
+  },
+  "Germany": {
+    "flag_colors": ["black", "red", "gold"],
+    "popular_web_colors": ["black", "gray", "white", "blue"],
+    "font": "Fira Sans, Arial",
+    "tone": "formal",
+    "layout": "grid-based, clean",
+    "design_style": "functional modernism"
+  },
+  "France": {
+    "flag_colors": ["blue", "white", "red"],
+    "popular_web_colors": ["blue", "white", "pastel tones"],
+    "font": "Open Sans, Roboto",
+    "tone": "elegant",
+    "layout": "minimal, artistic",
+    "design_style": "artistic minimalism"
+  },
+  "Italy": {
+    "flag_colors": ["green", "white", "red"],
+    "popular_web_colors": ["green", "white", "black", "gold"],
+    "font": "Poppins, Open Sans",
+    "tone": "emotional",
+    "layout": "bold visuals",
+    "design_style": "luxurious and bold"
+  },
+  "Spain": {
+    "flag_colors": ["red", "yellow"],
+    "popular_web_colors": ["red", "yellow", "white", "black"],
+    "font": "Montserrat, Roboto",
+    "tone": "friendly",
+    "layout": "vivid, colorful",
+    "design_style": "vibrant and lively"
+  },
+  "Japan": {
+    "flag_colors": ["white", "red"],
+    "popular_web_colors": ["white", "gray", "black", "red"],
+    "font": "Noto Sans, Roboto",
+    "tone": "formal",
+    "layout": "minimal, functional",
+    "design_style": "zen minimalism"
+  },
+  "China": {
+    "flag_colors": ["red", "gold"],
+    "popular_web_colors": ["red", "gold", "white", "black"],
+    "font": "Noto Sans, Source Han Sans",
+    "tone": "direct",
+    "layout": "dense, information-rich",
+    "design_style": "dense and traditional"
+  },
+  "South Korea": {
+    "flag_colors": ["blue", "red", "white", "black"],
+    "popular_web_colors": ["white", "blue", "black", "gray"],
+    "font": "Noto Sans KR, Roboto",
+    "tone": "modern",
+    "layout": "minimal, tech-driven",
+    "design_style": "high-tech minimalism"
+  },
+    "Brazil": {
+      "flag_colors": ["green", "yellow", "blue"],
+      "popular_web_colors": ["green", "yellow", "blue", "white"],
+      "font": "Poppins, Roboto",
+      "tone": "playful",
+      "layout": "bold, colorful",
+      "design_style": "vivid and energetic"
+    },
+    "Argentina": {
+      "flag_colors": ["light blue", "white"],
+      "popular_web_colors": ["light blue", "white", "gray", "black"],
+      "font": "Montserrat, Arial",
+      "tone": "emotional",
+      "layout": "dynamic",
+      "design_style": "minimalist elegance"
+    },
+    "Mexico": {
+      "flag_colors": ["green", "white", "red"],
+      "popular_web_colors": ["green", "red", "white", "gold"],
+      "font": "Roboto, Open Sans",
+      "tone": "warm",
+      "layout": "bright, festive",
+      "design_style": "colorful and traditional"
+    },
+    "Colombia": {
+      "flag_colors": ["yellow", "blue", "red"],
+      "popular_web_colors": ["yellow", "blue", "red", "white"],
+      "font": "Poppins, Arial",
+      "tone": "friendly",
+      "layout": "vivid, dynamic",
+      "design_style": "bright and festive"
+    },
+    "Chile": {
+      "flag_colors": ["blue", "white", "red"],
+      "popular_web_colors": ["blue", "white", "red", "gray"],
+      "font": "Roboto, Montserrat",
+      "tone": "serious",
+      "layout": "organized, clean",
+      "design_style": "modern structured"
+    },
+    "India": {
+      "flag_colors": ["orange", "white", "green"],
+      "popular_web_colors": ["orange", "green", "white", "saffron"],
+      "font": "Poppins, Roboto",
+      "tone": "vibrant",
+      "layout": "rich in visuals",
+      "design_style": "colorful traditional"
+    },
+    "Indonesia": {
+      "flag_colors": ["red", "white"],
+      "popular_web_colors": ["red", "white", "black", "gray"],
+      "font": "Roboto, Open Sans",
+      "tone": "warm",
+      "layout": "dense, colorful",
+      "design_style": "informative and bold"
+    },
+    "Philippines": {
+      "flag_colors": ["blue", "red", "white", "yellow"],
+      "popular_web_colors": ["blue", "red", "white", "yellow"],
+      "font": "Poppins, Open Sans",
+      "tone": "optimistic",
+      "layout": "bright, friendly",
+      "design_style": "vivid and optimistic"
+    },
+    "Malaysia": {
+      "flag_colors": ["blue", "yellow", "red", "white"],
+      "popular_web_colors": ["blue", "yellow", "red", "white"],
+      "font": "Roboto, Open Sans",
+      "tone": "multicultural",
+      "layout": "colorful, structured",
+      "design_style": "rich and structured"
+    },
+    "Egypt": {
+      "flag_colors": ["red", "white", "black"],
+      "popular_web_colors": ["red", "black", "white", "gold"],
+      "font": "Cairo, Roboto",
+      "tone": "formal",
+      "layout": "bold, historic",
+      "design_style": "traditional grandeur"
+    },
+    "South Africa": {
+    "flag_colors": ["green", "gold", "red", "blue", "black", "white"],
+    "popular_web_colors": ["green", "gold", "blue", "black", "white"],
+    "font": "Roboto, Open Sans",
+    "tone": "vibrant",
+    "layout": "diverse, colorful",
+    "design_style": "dynamic and inclusive"
+  },
+  "Kenya": {
+    "flag_colors": ["black", "red", "green", "white"],
+    "popular_web_colors": ["green", "red", "black", "white"],
+    "font": "Roboto, Open Sans",
+    "tone": "energetic",
+    "layout": "dynamic, community-driven",
+    "design_style": "bold and expressive"
+  },
+  "Nigeria": {
+    "flag_colors": ["green", "white"],
+    "popular_web_colors": ["green", "white", "dark gray"],
+    "font": "Roboto, Poppins",
+    "tone": "vibrant",
+    "layout": "bold, energetic",
+    "design_style": "lively and direct"
+  },
+  "Turkey": {
+    "flag_colors": ["red", "white"],
+    "popular_web_colors": ["red", "white", "gray"],
+    "font": "Roboto, Poppins",
+    "tone": "warm",
+    "layout": "rich visuals",
+    "design_style": "emotive and clear"
+  },
+  "Iran": {
+    "flag_colors": ["green", "white", "red"],
+    "popular_web_colors": ["green", "red", "white", "black"],
+    "font": "Vazirmatn, Roboto",
+    "tone": "formal",
+    "layout": "dense, cultural",
+    "design_style": "historic and detailed"
+  },
+  "Saudi Arabia": {
+    "flag_colors": ["green", "white"],
+    "popular_web_colors": ["green", "white", "gold", "black"],
+    "font": "Tajawal, Roboto",
+    "tone": "formal",
+    "layout": "luxurious, spacious",
+    "design_style": "elegant and modern"
+  },
+  "Vietnam": {
+    "flag_colors": ["red", "yellow"],
+    "popular_web_colors": ["red", "yellow", "white"],
+    "font": "Roboto, Open Sans",
+    "tone": "friendly",
+    "layout": "minimal, vibrant",
+    "design_style": "simple and engaging"
+  },
+  "Thailand": {
+    "flag_colors": ["red", "white", "blue"],
+    "popular_web_colors": ["red", "blue", "white", "purple"],
+    "font": "Kanit, Roboto",
+    "tone": "playful",
+    "layout": "vivid, rich",
+    "design_style": "fun and stylish"
+  },
+  "Australia": {
+    "flag_colors": ["blue", "white", "red"],
+    "popular_web_colors": ["blue", "green", "white", "gray"],
+    "font": "Poppins, Roboto",
+    "tone": "casual",
+    "layout": "minimal, modern",
+    "design_style": "clean and relaxed"
+  },
+  "Netherlands": {
+    "flag_colors": ["red", "white", "blue"],
+    "popular_web_colors": ["blue", "red", "white", "gray"],
+    "font": "Roboto, Open Sans",
+    "tone": "professional, friendly",
+    "layout": "structured, user-centered",
+    "design_style": "modern minimalism"
+  },
+  "Switzerland": {
+    "flag_colors": ["red", "white"],
+    "popular_web_colors": ["red", "white", "gray"],
+    "font": "Helvetica, Arial",
+    "tone": "formal, clean",
+    "layout": "grid-based, minimalist",
+    "design_style": "functional minimalism"
+  },
+  "Sweden": {
+    "flag_colors": ["blue", "yellow"],
+    "popular_web_colors": ["blue", "yellow", "white"],
+    "font": "Roboto, Open Sans",
+    "tone": "friendly, professional",
+    "layout": "clean, user-friendly",
+    "design_style": "scandinavian minimalism"
+  },
+  "Poland": {
+    "flag_colors": ["white", "red"],
+    "popular_web_colors": ["white", "red", "gray"],
+    "font": "Roboto, Open Sans",
+    "tone": "formal, modern",
+    "layout": "simple, structured",
+    "design_style": "modern and clean"
+  },
+  "Pakistan": {
+    "flag_colors": ["green", "white"],
+    "popular_web_colors": ["green", "white", "dark gray"],
+    "font": "Roboto, Open Sans",
+    "tone": "formal, friendly",
+    "layout": "structured, clear",
+    "design_style": "modern minimalism"
+  },
+  "Ukraine": {
+    "flag_colors": ["blue", "yellow"],
+    "popular_web_colors": ["blue", "yellow", "white"],
+    "font": "Roboto, Open Sans",
+    "tone": "patriotic, formal",
+    "layout": "simple, organized",
+    "design_style": "modern and patriotic"
+  },
+
+ 
+
+
+
+  "North America": {
+    "flag_colors": ["varies by country, common: red, white, blue"],
+    "popular_web_colors": ["blue", "white", "gray", "black", "red"],
+    "font": "Roboto, Open Sans, Helvetica, Arial",
+    "tone": "casual, professional, friendly",
+    "layout": "responsive, user-centered, clear, accessible",
+    "design_style": "modern minimalism, material design, clean and simple"
+  },
+  "South America": {
+    "flag_colors": ["varies by country, common: red, yellow, blue, green"],
+    "popular_web_colors": ["red", "yellow", "blue", "green", "orange"],
+    "font": "Poppins, Roboto, Arial",
+    "tone": "friendly, vibrant, warm",
+    "layout": "bright, dynamic, festive",
+    "design_style": "colorful, energetic, warm and inviting"
+  },
+  "Latin America": {
+    "flag_colors": ["varies by country, common: red, yellow, blue"],
+    "popular_web_colors": ["red", "orange", "yellow", "green"],
+    "font": "Poppins, Open Sans",
+    "tone": "friendly, vibrant",
+    "layout": "bright and festive",
+    "design_style": "warm and colorful"
+  },
+  "Europe": {
+    "flag_colors": ["varies by country, common: blue, red, white, yellow, green"],
+    "popular_web_colors": ["blue", "red", "white", "gray", "black"],
+    "font": "Roboto, Open Sans, Arial, Lato",
+    "tone": "professional, formal, elegant",
+    "layout": "structured, clean, minimalistic, responsive",
+    "design_style": "modern minimalism, clean and simple, functional"
+  },
+  "Caribbean": {
+    "flag_colors": ["blue", "green", "yellow", "red", "white", "black"],  
+    "popular_web_colors": ["blue", "green", "yellow", "aqua", "white"],
+    "font": "Roboto, Poppins",
+    "tone": "relaxed, joyful",
+    "layout": "colorful, open",
+    "design_style": "tropical and light"
+  },
+  "Africa": {
+    "flag_colors": ["varies by country, common: red, green, yellow, black"],
+    "popular_web_colors": ["earth tones", "orange", "brown", "green", "yellow"],
+    "font": "Roboto, Open Sans",
+    "tone": "vibrant, energetic",
+    "layout": "pattern-rich, colorful",
+    "design_style": "textured and warm"
+  },
+  "Asia": {
+    "flag_colors": ["varies by country, common: red, blue, yellow, white, green"],
+    "popular_web_colors": ["red", "blue", "white", "black", "gold"],
+    "font": "Roboto, Noto Sans, Open Sans, Poppins",
+    "tone": "formal, vibrant, direct, modern",
+    "layout": "minimal, functional, dense, tech-driven",
+    "design_style": "modern minimalism, high-tech minimalism, colorful traditional"
+  },
+  "Central Asia": {
+    "flag_colors": ["varies by country, common: blue, green, yellow, red, white"],
+    "popular_web_colors": ["blue", "green", "yellow", "red", "white"],
+    "font": "Roboto, Open Sans, Arial, Noto Sans",
+    "tone": "formal, traditional, warm",
+    "layout": "clean, organized, cultural",
+    "design_style": "elegant, intricate, historical, vibrant"
+  },
+  "Middle East": {
+    "flag_colors": ["green", "white", "red", "black"],
+    "popular_web_colors": ["gold", "green", "white", "black", "beige"],
+    "font": "Tajawal, Cairo",
+    "tone": "formal, elegant",
+    "layout": "luxurious, intricate",
+    "design_style": "sophisticated and detailed"
+  },
+  "Oceania": {
+    "flag_colors": ["varies by country, common: blue, white, red, green"],
+    "popular_web_colors": ["blue", "white", "green", "yellow", "gray"],
+    "font": "Roboto, Poppins, Open Sans, Lato",
+    "tone": "casual, friendly, vibrant",
+    "layout": "minimal, modern, relaxed",
+    "design_style": "clean and simple, tropical, coastal"
+  },
+  "Balkans": {
+    "flag_colors": ["blue", "red", "white"],
+    "popular_web_colors": ["blue", "gray", "white", "red"],
+    "font": "Roboto, Open Sans",
+    "tone": "emotional",
+    "layout": "solid, structured",
+    "design_style": "clean and patriotic"
+  }
+  }
