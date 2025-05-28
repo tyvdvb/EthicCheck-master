@@ -5,7 +5,7 @@ import { currentUser } from "@clerk/nextjs/server";
 import { NextRequest, NextResponse } from "next/server";
 
 export async function POST(req: NextRequest) {
-  const data = await req.json();
+ try { const data = await req.json();
   await connectDB();  
   const perplexityResponse = await sendAnalizeRequestToPerplexity(data);
 
@@ -18,7 +18,13 @@ export async function POST(req: NextRequest) {
     chatGptResponse,
     perplexityResponse,
   });
+} catch (e){
+  return NextResponse.json({
+    error: e
+  })
 }
+}
+
 
 export async function GET() {
   try {
