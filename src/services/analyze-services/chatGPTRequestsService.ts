@@ -2,6 +2,9 @@ import { GenerateContentForm } from "@/types/formTypes";
 import OpenAI from "openai";
 import fs from 'fs';
 import { saveNewRequestToUserHistory } from "@/repository/userRequestsHistory";
+import culturalRules from '../../data/culturalRules.json'
+import regionMapper from '../../data/regionMapper.json'
+import designPatterns from '../../data/design_patterns.json'
 
 export async function generateComponentFromGPT({
   data,
@@ -13,18 +16,18 @@ export async function generateComponentFromGPT({
 
 
   const countryName = data.country.label;
-  const culturalRules = JSON.parse(fs.readFileSync('./src/data/culturalRules.json', 'utf8'));
-  const regionMapper = JSON.parse(fs.readFileSync('./src/data/regionMapper.json', 'utf8'));
-  const designPatterns = JSON.parse(fs.readFileSync('./src/data/design_patterns.json', 'utf8'));
+  // const culturalRules = JSON.parse(fs.readFileSync('./src/data/culturalRules.json', 'utf8'));
+  // const regionMapper = JSON.parse(fs.readFileSync('./src/data/regionMapper.json', 'utf8'));
+  // const designPatterns = JSON.parse(fs.readFileSync('./src/data/design_patterns.json', 'utf8'));
 
-  const currentCountryRegion = regionMapper[countryName];
-  let currentCountryCulturalRules = culturalRules[countryName];
-  let currentCountryDesignPatterns = designPatterns[countryName];
+  const currentCountryRegion = (regionMapper as Record<string ,any>)[countryName];
+  let currentCountryCulturalRules = (culturalRules as Record<string ,any>)[countryName];
+  let currentCountryDesignPatterns = (designPatterns as Record<string ,any>)[countryName];
   if(!currentCountryCulturalRules) {
-    currentCountryCulturalRules = culturalRules[currentCountryRegion];
+    currentCountryCulturalRules = (culturalRules as Record<string ,any>)[currentCountryRegion];
   }
   if(!currentCountryDesignPatterns) {
-    currentCountryDesignPatterns = designPatterns[currentCountryRegion];
+    currentCountryDesignPatterns = (designPatterns as Record<string ,any>)[currentCountryRegion];
   }
 
   
@@ -34,10 +37,10 @@ export async function generateComponentFromGPT({
 ${perplexityResponse}
 \"\"\"
 Generate modern React components with inline styles for styling according to following description  ${data.requestContext}. Provide two files with different designs.
-
+ First import i18next function fom react-i18next to avoid error 'Can't find variable: i18next'
 List of requirements to generated content:
 - Styles should be inline
-- Necessarily import i18next function fom react-i18next and use it to initialize translations. So it would not give an import error
+- Necessarily import  and use it to initialize translations. So it would not give an import error
 - make sure to initialize translations correctly
 - use useTranslation hook to get t function in component where needed. 
 - generate translation object with english and language used locally in the specified country
