@@ -22,7 +22,7 @@ export const Footer = () => {
             </li>
             <li>
               <a href="/services" className="hover:underline me-4 md:me-6">
-                Services
+                Check
               </a>
             </li>
             <li>

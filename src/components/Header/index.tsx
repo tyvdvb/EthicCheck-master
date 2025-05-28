@@ -14,7 +14,7 @@ export const Header = () => {
 
         <ul className="flex gap-4">
           <Link href="/services">
-            <li>Services</li>
+            <li>Check</li>
           </Link>
           <Link href="/generation">
             <li>Generation</li>
