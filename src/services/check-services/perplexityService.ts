@@ -2,7 +2,7 @@ import { EthicForm } from "@/types/formTypes";
 import { constructRequestToAI } from "@/utils/constructRequestToAI";
 import OpenAI from "openai";
 
-export const sendRequestToChatGpt = async (body: EthicForm) => {
+export const sendRequestToPerplexity = async (body: EthicForm) => {
   const requestString = constructRequestToAI(body.url, body.country.label, {
     localization: body.localization,
     language: body.language,
@@ -12,11 +12,12 @@ export const sendRequestToChatGpt = async (body: EthicForm) => {
   });
 
   const perplexityClient = new OpenAI({
-    apiKey: process.env.CHAT_GPT_SECRET,
+    baseURL: "https://api.perplexity.ai",
+    apiKey: process.env.PERPLEXITY_API_KEY,
   });
 
   const aiResponse = await perplexityClient.chat.completions.create({
-    model: "gpt-4o",
+    model: "sonar",
     messages: [
       {
         role: "user",
@@ -24,5 +25,6 @@ export const sendRequestToChatGpt = async (body: EthicForm) => {
       },
     ],
   });
+
   return aiResponse.choices;
 };

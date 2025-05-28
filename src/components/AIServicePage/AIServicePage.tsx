@@ -7,7 +7,7 @@ import { CheckResults } from "@/types/formTypes";
 
 export const AIServicePage = () => {
   const [checkResult, setCheckResults] = useState<{
-    perplexityResponse: [];
+    perplexityResponse: CheckResults[];
     chatGptResponse: CheckResults[];
   }>({
     perplexityResponse: [],

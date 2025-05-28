@@ -17,11 +17,11 @@ interface IAIRequestFormProps {
   setLoading: (loading: boolean) => void;
   loading: boolean;
   checkResult: {
-    perplexityResponse: [];
+    perplexityResponse: CheckResults[];
     chatGptResponse: CheckResults[];
   };
   setCheckResults: (checkResult: {
-    perplexityResponse: [];
+    perplexityResponse: CheckResults[];
     chatGptResponse: CheckResults[];
   }) => void;
 }
@@ -50,7 +50,9 @@ export const AIRequestForm = ({
         chatGptResponse: OpenAI.Chat.Completions.ChatCompletion.Choice[],
     }>("api/check-site", formData);
       setCheckResults({
-        perplexityResponse: [],
+        perplexityResponse: checkRequest.data.perplexityResponse.map((el) => ({
+          content: el.message.content || "",
+        })),
         chatGptResponse: checkRequest.data.chatGptResponse.map((el) => ({
           content: el.message.content || "",
         })),

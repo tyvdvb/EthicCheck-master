@@ -42,10 +42,10 @@ const AboutPage = () => {
                 <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
                     <div className="mb-24 text-center">
                         <h2 className="text-4xl text-center font-bold text-white py-5">
-                            Cross-Cultural Requirements?
+                            Cross-Cultural Requirements Made Easy
                         </h2>
                         <p className="text-lg font-normal text-gray-500 max-w-md md:max-w-2xl mx-auto">
-                            At EthicCheck, we make sure your website is ready to jet-set around the world by checking for specific cultural requirements in different countries. Let's make sure your online presence is always in tune with the global vibe!
+                            EthicCheck helps you both generate culturally adapted UI components and analyze existing website content for regional compatibility. Our AI ensures your design, content, and links meet the expectations of diverse global audiences.
                         </p>
                     </div>
                     <div className="mb-24 grid gap-x-2  lg:grid-cols-2 xl:gap-x-12">
@@ -54,7 +54,7 @@ const AboutPage = () => {
                                 <div className="ml-2 grow">
 
                                     <p className="text-neutral-500 dark:text-neutral-300">
-                                        In today's interconnected world, where the internet knows no boundaries, ensuring that your website is culturally sensitive and inclusive is more important than ever. Websites are accessed by people from diverse backgrounds, cultures, and languages, and overlooking cultural considerations can lead to misunderstandings, misinterpretations, and ultimately, missed opportunities.
+                                        In today&apos;s interconnected world, where the internet knows no boundaries, ensuring that your website is culturally sensitive and inclusive is more important than ever. Websites are accessed by people from diverse backgrounds, cultures, and languages, and overlooking cultural considerations can lead to misunderstandings, misinterpretations, and ultimately, missed opportunities.
                                     </p>
 
                                     <p className="text-neutral-500 dark:text-neutral-300">
@@ -67,7 +67,7 @@ const AboutPage = () => {
                             <div className="flex">
                                 <div className="ml-2 grow">
                                     <p className="text-neutral-500 dark:text-neutral-300">
-                                        Respecting cultural diversity is not just a matter of courtesy; it's a fundamental aspect of building trust and fostering inclusivity. By acknowledging and accommodating cultural differences, you demonstrate respect for your audience's backgrounds, beliefs, and values, fostering a sense of belonging and acceptance.
+                                        Respecting cultural diversity is not just a matter of courtesy; it&apos;s a fundamental aspect of building trust and fostering inclusivity. By acknowledging and accommodating cultural differences, you demonstrate respect for your audience&apos;s backgrounds, beliefs, and values, fostering a sense of belonging and acceptance.
                                     </p>
 
                                     <p className="text-neutral-500 dark:text-neutral-300">
@@ -87,11 +87,11 @@ const AboutPage = () => {
                                         stroke="" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
                                 </svg>
                             </div>
-                            <h4 className="text-lg font-medium text-gray-900 mb-3 capitalize">
+                            <h4 className="text-lg font-medium text-white mb-3 capitalize">
                                 Revolutionary Projectview
                             </h4>
                             <p className="text-sm font-normal text-gray-500">
-                                plan and structure work how you want. Quickly organizing tasks.
+                                Plan and structure work how you want. Quickly organizing tasks.
                             </p>
                         </div>
                         <div className="relative w-full text-center max-md:max-w-sm max-md:mx-auto group md:w-2/5 lg:w-1/4">
@@ -127,8 +127,8 @@ const AboutPage = () => {
                                         stroke="" stroke-width="2" stroke-linecap="round"></path>
                                 </svg>
                             </div>
-                            <h4 className="text-lg font-medium text-gray-900 mb-3 capitalize">
-                                Data Reporting
+                            <h4 className="text-lg font-medium text-white mb-3 capitalize">
+                                Smart Cultural Link Checker
                             </h4>
                             <p className="text-sm font-normal text-gray-500">
                                 Get real time insight into progress and allows teams to track
@@ -143,7 +143,7 @@ const AboutPage = () => {
                                         stroke="" stroke-width="2" stroke-linecap="round"></path>
                                 </svg>
                             </div>
-                            <h4 className="text-lg font-medium text-gray-900 mb-3 capitalize">
+                            <h4 className="text-lg font-medium text-white mb-3 capitalize">
                                 Workflow Builder
                             </h4>
                             <p className="text-sm font-normal text-gray-500">
@@ -174,25 +174,25 @@ const AboutPage = () => {
                         <div className="mb-6 md:mb-8 lg:mb-12">
                             <p className="mb-4 font-bold">What are some common cultural factors to consider when designing a website?</p>
                             <p className="text-neutral-500 dark:text-neutral-300">
-                                Cultural factors to consider include language preferences, cultural symbols and imagery, color symbolism, social norms, religious sensitivities, and regional preferences. Adapting these elements to align with your target audience's cultural context can enhance user engagement and satisfaction.
+                                Cultural factors to consider include language preferences, cultural symbols and imagery, color symbolism, social norms, religious sensitivities, and regional preferences. Adapting these elements to align with your target audience&apos;s cultural context can enhance user engagement and satisfaction.
                             </p>
                         </div>
 
                         <div className="mb-6 md:mb-8 lg:mb-12">
                             <p className="mb-4 font-bold">
-                                What are the benefits of using AI for cross-cultural website checks?
+                                Can EthicCheck generate culturally adapted components?
                             </p>
                             <p className="text-neutral-500 dark:text-neutral-300">
-                                Using AI for cross-cultural website checks offers benefits such as automated analysis of large datasets, identification of cultural sensitivities, generation of actionable insights, and streamlining the optimization process. AI-driven tools can enhance efficiency and effectiveness in meeting cross-cultural requirements.
+                                Yes. EthicCheck uses AI and cultural rule sets to generate interface elements such as menus, cards, and footers tailored to specific cultural contexts, including language, visual layout, and tone.
                             </p>
                         </div>
 
                         <div className="mb-6 md:mb-8 lg:mb-12">
                             <p className="mb-4 font-bold">
-                                How often should I review and update my website's cross-cultural elements?
+                                How often should I review and update my website&apos;s cross-cultural elements?
                             </p>
                             <p className="text-neutral-500 dark:text-neutral-300">
-                                It's recommended to review and update your website's cross-cultural elements regularly, especially in response to changing cultural trends, audience feedback, and global events. Establishing a review schedule and staying proactive in addressing cultural considerations can help maintain relevance and resonance with your audience.
+                                It&apos;s recommended to review and update your website&apos;s cross-cultural elements regularly, especially in response to changing cultural trends, audience feedback, and global events. Establishing a review schedule and staying proactive in addressing cultural considerations can help maintain relevance and resonance with your audience.
                             </p>
                         </div>
 
@@ -211,6 +211,7 @@ const AboutPage = () => {
                                 While cross-cultural website design is particularly important for businesses with a global presence, it can also benefit organizations serving diverse local communities or targeting niche cultural demographics.
                             </p>
                         </div>
+                        
                     </div>
                 </section>
             </div>

@@ -1,5 +1,5 @@
 import connectDB from "@/db/database";
-import { getRequestsHistory } from "@/analyze-services/getRequestsHistory";
+import { getRequestsHistory } from "@/services/getRequestsHistory";
 import { NextRequest, NextResponse } from "next/server";
 
 export async function GET(req: NextRequest) {

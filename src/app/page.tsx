@@ -180,7 +180,7 @@ export default function Home() {
 
         <section className="mb-34 text-center">
           <h2 className="mb-10 text-3xl font-bold">Why is it so great?</h2>
-          <p className="mb-20">EthicCheck revolutionizes the way businesses approach cultural requirements for their websites. Powered by advanced AI technology, EthicCheck delivers unparalleled accuracy and efficiency in assessing cultural sensitivities. </p>
+          <p className="mb-20">EthicCheck revolutionizes the way businesses approach cultural adaptation of websites. It not only checks existing content for cultural appropriateness and link-related issues, but also generates tailored components that align with the language, visual, and structural expectations of the target region using artificial intelligence. </p>
 
           <div className="grid lg:grid-cols-3 lg:gap-x-12">
             <div className="mb-12 lg:mb-0">
@@ -198,7 +198,7 @@ export default function Home() {
                 <div className="p-6">
                   <h5 className="mb-4 text-lg font-semibold">Accuracy</h5>
                   <p>
-                    EthicCheck utilizes advanced AI algorithms to provide accurate assessments of websites' cultural requirements.
+                    EthicCheck utilizes advanced AI algorithms to provide accurate assessments of websites&apos; cultural requirements.
                   </p>
                 </div>
               </div>
@@ -219,7 +219,7 @@ export default function Home() {
                 <div className="p-6">
                   <h5 className="mb-4 text-lg font-semibold">Support</h5>
                   <p>
-                    Whether it's technical assistance or guidance on cultural best practices, businesses can rely on EthicCheck's support team to help them succeed.
+                    Whether it&apos;s technical assistance or guidance on cultural best practices, businesses can rely on EthicCheck&apos;s support team to help them succeed.
                   </p>
                 </div>
               </div>
@@ -263,12 +263,12 @@ export default function Home() {
             <div className="mb-6 md:mb-0">
               <p className="mb-4 font-bold">Cultural Inclusivity</p>
               <p className="mb-12 text-neutral-500 dark:text-neutral-300">
-                EthicCheck was developed to address the critical need for cultural inclusivity in web design. By ensuring that websites are culturally sensitive and inclusive, EthicCheck helps businesses connect with diverse global audiences on a deeper level. Whether it's language preferences, imagery, or cultural symbols, EthicCheck empowers businesses to create web experiences that resonate with people from different cultural backgrounds.
+                EthicCheck was developed to address the critical need for cultural inclusivity in web design. By ensuring that websites are culturally sensitive and inclusive, EthicCheck helps businesses connect with diverse global audiences on a deeper level. Whether it&apos;s language preferences, imagery, or cultural symbols, EthicCheck empowers businesses to create web experiences that resonate with people from different cultural backgrounds.
               </p>
 
               <p className="mb-4 font-bold">Using AI for Cultural Insights</p>
               <p className="mb-12 text-neutral-500 dark:text-neutral-300">
-                EthicCheck harnesses the power of AI to provide valuable feedback on websites' cultural requirements. By leveraging advanced algorithms and machine learning, EthicCheck analyzes website content to identify potential cultural insensitivities and provide actionable insights for improvement. This innovative approach enables businesses to gain deeper cultural understanding and make informed decisions about their online presence.
+              EthicCheck uses AI to both evaluate and generate culturally appropriate website elements. It analyzes existing web pages to detect potential cultural mismatches and simultaneously allows businesses to generate localized UI components based on regional norms, preferences, and values.
               </p>
 
               <p className="mb-4 font-bold">

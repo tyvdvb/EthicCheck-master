@@ -6,13 +6,13 @@ import { User, currentUser } from "@clerk/nextjs/server";
 export const saveNewRequestToUserHistory = async (
   siteUrl: string,
   country: string,
-  checkParams: CheckParams,
-  // perplexityResponse: {
-  //   content: String;
-  // }[],
-  chatGptResponse: {
+  checkParams?: CheckParams,
+  chatGptResponse?: {
     content: String;
-  }[]
+  }[],
+  perplexityResponse?: {
+    content: String;
+  }[],
 ) => {
   const user = await currentUser();
 
@@ -20,7 +20,7 @@ export const saveNewRequestToUserHistory = async (
     email: user?.emailAddresses[0].emailAddress,
     siteUrl,
     country,
-    // perplexityResponse,
+    perplexityResponse,
     chatGptResponse,
     requestParams: checkParams,
   });
@@ -37,6 +37,7 @@ export const getUserRequestsHistoryFromDB = async (
   const history = await UserRequestsHistory.find({
     email: user?.emailAddresses[0].emailAddress,
   })
+    .sort({ createdAt: -1 })
     .skip(page * limit)
     .limit(limit);
   const historyCount = await UserRequestsHistory.countDocuments({

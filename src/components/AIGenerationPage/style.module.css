@@ -1,0 +1,70 @@
+.accordion {
+    border-top: 1px solid #ccc;
+    margin-top: 1rem;
+    width: 100%;
+  }
+  
+  .item {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .itemBtn {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 1rem;
+    font-size: 1rem;
+    text-align: left;
+    color: #007bff;
+    background-color: transparent;
+    border: none;
+  }
+  
+  .itemBtn:hover {
+    background-color: #f3f3f3;
+  }
+  
+  .itemBtnExpanded {
+    background-color: #e7e7e7;
+  }
+  
+  .itemContent {
+    transition: height 0.25s cubic-bezier(0, 0, 0, 1);
+  }
+  
+  .itemPanel {
+    padding: 1rem;
+  }
+  
+  .chevron {
+    margin-left: auto;
+    transition: transform 0.25s cubic-bezier(0, 0, 0, 1);
+  }
+  
+  .itemBtnExpanded .chevron {
+    transform: rotate(180deg);
+  }
+
+  
+.perplexityContent a[href^="#ref-"] {
+  display: none;
+}
+
+  
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(5px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .animate-fade-in {
+    animation: fade-in 0.5s ease-out both;
+  }
+  
+

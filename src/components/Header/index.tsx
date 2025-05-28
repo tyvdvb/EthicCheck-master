@@ -1,10 +1,8 @@
 import Link from "next/link";
-import { Button } from "../Button";
 import { SignInButton, SignOutButton, SignUpButton, SignedIn, SignedOut, UserButton, useAuth } from "@clerk/nextjs";
 import { Logo } from "../icons/Logo";
 
 export const Header = () => {
-  const { userId } = useAuth();
   return (
     <header className="px-6 py-4 bg-white bg-opacity-55 backdrop-blur-[30px] shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-[hsla(0,0%,5%,0.55)] dark:shadow-black/20 flex items-center justify-between md:px-12 md:py-6">
       <div className="flex gap-6 items-center">
@@ -17,6 +15,9 @@ export const Header = () => {
         <ul className="flex gap-4">
           <Link href="/services">
             <li>Services</li>
+          </Link>
+          <Link href="/generation">
+            <li>Generation</li>
           </Link>
           <Link href="/about">
             <li>About</li>

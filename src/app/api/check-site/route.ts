@@ -1,6 +1,5 @@
 import connectDB from "@/db/database";
-import { requestPerplexityAndChatGpt } from "@/check-services/aiRequestsService";
-import { sendRequestToPerplexity } from "@/analyze-services/perplexityAnalyzeService";
+import { requestPerplexityAndChatGpt } from "@/services/check-services/aiRequestsService";
 import { currentUser } from "@clerk/nextjs/server";
 import { NextRequest, NextResponse } from "next/server";
 

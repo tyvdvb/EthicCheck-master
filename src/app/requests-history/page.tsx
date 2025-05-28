@@ -1,43 +1,56 @@
 "use client";
+import { AIGenerationDisplay } from "@/components/AIGenerationDisplay/AIGenerationDisplay";
 import { Button } from "@/components/Button";
 import { RequestHistory } from "@/types/apiResponseTypes";
+import { formatGenerationResponse } from "@/utils/generationRequestResult";
 import axios from "axios";
 import { useEffect, useState } from "react";
-import ReactPaginate from 'react-paginate';
+import ReactPaginate from "react-paginate";
 
 const PAGE_LIMIT = 1;
 
 const getHistoryByPage = async (page: number) => {
   const historyResponse = await axios.get<{
-    history: RequestHistory[],
-    count: number,
-  }>(
-    `/api/get-history?page=${page - 1}&limit=${PAGE_LIMIT}`
-  );
+    history: RequestHistory[];
+    count: number;
+  }>(`/api/get-history?page=${page - 1}&limit=${PAGE_LIMIT}`);
   return historyResponse.data;
 };
 
-const PaginationBar = ({ total, currentPage, onPageChange }: { total: number, currentPage: number, onPageChange: (page: number) => void }) => {
-  const totalPages = Math.ceil(total / PAGE_LIMIT);
+const HistoryEthickCheckDisplay = ({ el }: {el: RequestHistory} ) => {
+   return <div  className="m-14">
+  <div className="mb-5">
+    <h3 style={{ fontSize: "1rem", fontWeight: "bold" }}>
+      Site URL:{" "}
+    </h3>
+    {el.siteUrl}
+  </div>
+  <div className="mb-5">
+    <h3 style={{ fontSize: "1rem", fontWeight: "bold" }}>
+      Perplexity Response
+    </h3>
+    <ul>
+      {el.perplexityResponse.map((response, index) =>
+        response.content
+          .split("###")
+          .map((paragraph, index) => (
+            <li key={index}>{paragraph}</li>
+          ))
+      )}
+    </ul>
+  </div>
+</div>
+}
 
-  const renderPageNumbers = () => {
-    const pageNumbers = [];
-    for (let i = 1; i <= totalPages; i++) {
-      pageNumbers.push(
-        <Button key={i} disabled={currentPage === i} onClick={() => onPageChange(i)}>
-          {i}
-        </Button>
-      );
-    }
-    return pageNumbers;
-  };
+const HistoryGenerationDisplay = ({ el }: {el: RequestHistory} ) => {
+  const checkRes = el.chatGptResponse[0].content
 
-  return (
-    <div>
-      {renderPageNumbers()}
-    </div>
-  );
-};
+  if(!checkRes) {
+    return null;
+  }
+
+  return <AIGenerationDisplay checkResult={formatGenerationResponse(checkRes as string)} />
+}
 
 const RequestsHistoryPage = () => {
   const [page, setPage] = useState(1);
@@ -59,38 +72,22 @@ const RequestsHistoryPage = () => {
     <div>
       {history.length === 0
         ? "No search history"
-        : history.map((el, index) =>
-          <div key={index} className="m-14">
-            <div className="mb-5">
-              <h3 style={{ fontSize: '1rem', fontWeight: 'bold' }}>Site URL: </h3>
-              {el.siteUrl}
-            </div>
-            <div className="mb-5">
-              <h3 style={{ fontSize: '1rem', fontWeight: 'bold' }}>Perplexity Response</h3>
-              <ul>
-                {el.perplexityResponse.map((response, index) => (
-                  response.content.split('###').map((paragraph, index) => (
-                    <li key={index}>{paragraph}</li>
-                  ))
-                ))}
-              </ul>
-            </div>
-          </div>)}
+        : history.map((el, index) => el.siteUrl ? <HistoryEthickCheckDisplay key={index} el={el} /> : <HistoryGenerationDisplay key={index} el={el} />)}
       <ReactPaginate
+        breakLabel="..."
+        nextLabel="Next"
+        previousLabel="Prev"
+        marginPagesDisplayed={2}
+        containerClassName="flex justify-center items-center gap-2 my-4"
+        pageClassName="rounded-lg border border-gray-300 px-3 py-1 hover:bg-gray-100"
+        activeClassName="bg-blue-500 text-white"
+        previousClassName="rounded-lg border border-gray-300 px-3 py-1 hover:bg-gray-100"
+        nextClassName="rounded-lg border border-gray-300 px-3 py-1 hover:bg-gray-100"
+        breakClassName="text-gray-500"
+        disabledClassName="opacity-50 cursor-not-allowed"
         pageCount={Math.ceil(total / PAGE_LIMIT)}
         pageRangeDisplayed={5}
         onPageChange={handlePageChange}
-        pageClassName="page-item"
-        pageLinkClassName="page-link"
-        previousClassName="page-item"
-        previousLinkClassName="page-link"
-        nextClassName="page-item"
-        nextLinkClassName="page-link"
-        breakLabel="..."
-        breakClassName="page-item"
-        breakLinkClassName="page-link"
-        containerClassName="pagination"
-        activeClassName="active"
         renderOnZeroPageCount={null}
       />
     </div>

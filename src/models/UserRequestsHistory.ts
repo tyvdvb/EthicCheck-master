@@ -21,7 +21,7 @@ const UserRequestsSchema = new mongoose.Schema({
       content: String,
     },
   ],
-});
+}, { timestamps: true });
 
 const UserRequestsModel = mongoose.models.requestsHistory || mongoose.model('requestsHistory', UserRequestsSchema);
 

@@ -4,17 +4,24 @@ export interface CheckParams {
   usability: boolean;
   contentAndImagery: boolean;
   localization: boolean;
-  additionalContext?: string; 
+}
+
+export interface Country {
+    label: string;
+    value: string;
 }
 
 export interface EthicForm extends CheckParams {
   url: string;
-  country: {
-    label: string;
-    value: string;
-  };
+  country: Country;
 }
 
 export interface CheckResults {
   content: string
+}
+
+
+export interface GenerateContentForm {
+  country: Country;
+  requestContext: string;
 }

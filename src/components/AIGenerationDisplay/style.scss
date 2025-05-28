@@ -1,0 +1,28 @@
+.ai-response {
+    padding: 10px 20px;
+    h2, h3, h4 {
+        font-size: 20px;
+        font-weight: 700;
+        margin: 20px 0px;
+    }
+    * {
+        max-width: 100%;
+        white-space: pre-wrap !important; 
+        word-break: break-word !important;
+        overflow-wrap: break-word !important;
+      }
+    
+    code, pre {
+        white-space: pre-wrap !important;
+        word-break: break-word !important;
+        overflow-x: auto;
+        max-width: 100%;
+      }
+    
+}
+
+.acc-design h2, h3, h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px 0px;
+}
