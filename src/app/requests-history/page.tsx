@@ -6,6 +6,7 @@ import { formatGenerationResponse } from "@/utils/generationRequestResult";
 import axios from "axios";
 import { useEffect, useState } from "react";
 import ReactPaginate from "react-paginate";
+import DOMPurify from "dompurify";
 
 const PAGE_LIMIT = 1;
 
@@ -25,20 +26,31 @@ const HistoryEthickCheckDisplay = ({ el }: {el: RequestHistory} ) => {
     </h3>
     {el.siteUrl}
   </div>
+
   <div className="mb-5">
-    <h3 style={{ fontSize: "1rem", fontWeight: "bold" }}>
-      Perplexity Response
-    </h3>
-    <ul>
-      {el.perplexityResponse.map((response, index) =>
-        response.content
-          .split("###")
-          .map((paragraph, index) => (
-            <li key={index}>{paragraph}</li>
-          ))
-      )}
-    </ul>
-  </div>
+              <h3 style={{ fontSize: '1rem', fontWeight: 'bold', textAlign: "center", marginBottom: "5px" }}>Perplexity Response</h3>
+              <ul>
+
+                {el.perplexityResponse.map((response, index) => (
+                  response.content.split('###').map((paragraph, index) => (
+                    <li key={index} dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(paragraph.replace(/\*/g, '')) }} />
+
+                  ))
+                ))}
+              </ul>
+            </div>
+
+  <div className="mb-5">
+              <h3 style={{ fontSize: '1rem', fontWeight: 'bold', textAlign: "center", marginBottom: "5px" }}>ChatGPT Response</h3>
+              <ul>
+                {el.chatGptResponse.map((response, responseIndex) => (
+                  response.content.split('###').map((paragraph, paragraphIndex) => (
+                    <li key={`${responseIndex}-${paragraphIndex}`} dangerouslySetInnerHTML={{ __html: DOMPurify.sanitize(paragraph.replace(/\*/g, '')) }} />
+
+                  ))
+                ))}
+              </ul>
+            </div>
 </div>
 }
 
